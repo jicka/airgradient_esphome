@@ -15,6 +15,7 @@ sensor:
         - offset: $co2_offset
     id: senseair_s8
     uart_id: senseair_s8_uart
+    update_interval: $co2_update_interval
 
 button:
   # https://github.com/esphome/issues/issues/2444
